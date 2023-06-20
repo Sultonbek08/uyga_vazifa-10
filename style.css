@@ -1,0 +1,264 @@
+@import url(./font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    margin: auto;
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #151515 100%), url(./image/658d8e92550bfaae988b5d0db84b8462.jfif) center -10px / cover;
+
+}
+
+.header__nav {
+    width: 100%;
+    height: 65px;
+    background: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 690px;
+}
+
+.header__nav__content1 {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.logo {
+    width: 100px;
+    height: 53px;
+    left: 245px;
+    top: 6px;
+    background: url(./logo/logo.png);
+}
+
+.header__nav__content2 {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    left: 80.62%;
+    right: 18.12%;
+    top: 0.84%;
+    bottom: 98.39%;
+}
+
+.shop {
+    left: 83.44%;
+    right: 15.5%;
+    top: 0.84%;
+    bottom: 98.39%;
+}
+
+.header__content {
+    margin: auto;
+    width: 100%;
+    height: 641px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 38px;
+    font-family: 'Montserrat'
+}
+
+.header__content-h1 {
+    width: 663px;
+    height: 75px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    color: #FFFFFF;
+    font-family: "Prosto_One";
+}
+
+.header__content-text {
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 13px 11px 13px 14px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    background: #151515;
+}
+
+.section_1 {
+    width: 100%;
+    background: #151515;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.card3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 88px;
+}
+
+.card__text1 {
+    width: 538px;
+    height: 135px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-bottom: 135px;
+}
+
+.card__text2 {
+    width: 538px;
+    height: 135px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.card__text3 {
+    width: 333px;
+    height: 120px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.card__text4 {
+    width: 333px;
+    height: 144px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.card__img3 {
+    position: relative;
+}
+
+.card__img3::after {
+    content: "";
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
+    position: absolute;
+    top: 50%;
+    left: -60px;
+}
+
+.card__img3::before {
+    position: absolute;
+    content: "";
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
+    top: 50%;
+    right: -60px;
+}
+
+.section__card {
+    border-radius: 5px;
+    background: #FFFFFF;
+    width: 255px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.phone__name {
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.phone__price {
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.phone__view {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 161px;
+    height: 34px;
+    background: #151515;
+    transition: .5s;
+}
+
+.phone__view:hover {
+    color: #000;
+    background: #FFFFFF;
+}
+
+.section_phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    padding-bottom: 55px;
+}
+
+.footer {
+    height: 215px;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 320px;
+}
+
+.nav__link {
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.nav {
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav_card {
+    display: flex;
+    column-gap: 29px;
+}
